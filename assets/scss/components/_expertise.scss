@@ -9,12 +9,15 @@
       margin: 0;
     }
     li{
-      list-style: none;
+      // list-style: none;
       font-size: 25px;
       font-weight: 300;
       color: $text-color-dark;
       &:not(:last-child){
         margin-bottom: 10px;
+      }
+      &.no-bullets {
+        list-style: none;
       }
     }
   }
